@@ -1,12 +1,23 @@
 import React from "react"
+import Hero from "./components/Hero"
+import About from "./components/About"
+import NavBar from "./components/Navbar"
+import Features from "./components/Features"
+import FloatingImage from "./components/Story"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
-    <>
-      <h1 className="text-3xl font-robert-medium underline  text-orange-400">
-        Hello world!
-      </h1>
-    </>
+    <main className="reletive main-h-screen w-screen overflow-x-hidden">
+      <NavBar />
+      <Hero />
+      <About />
+      <Features />
+      <FloatingImage />
+      <Contact />
+      <Footer />
+    </main>
   )
 }
 
