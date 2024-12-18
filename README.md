@@ -1,6 +1,3 @@
-# React + Vite
-
-
 Inspiration by: https://zentry.com/
 
 Using Language
