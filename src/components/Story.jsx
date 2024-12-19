@@ -4,6 +4,7 @@ import { useRef } from "react"
 import Button from "./Button"
 import AnimatedTitle from "./AnimatedTitle"
 import RoundedCorners from "./RoundedCorners"
+import image from "/img/entrance.webp"
 
 const FloatingImage = () => {
   const frameRef = useRef(null)
@@ -68,7 +69,7 @@ const FloatingImage = () => {
                   onMouseLeave={handleMouseLeave}
                   onMouseUp={handleMouseLeave}
                   onMouseEnter={handleMouseLeave}
-                  src="/img/entrance.webp"
+                  src={image}
                   alt="entrance.webp"
                   className="object-contain"
                 />
